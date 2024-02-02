@@ -10,7 +10,6 @@
   <ItemGroup>
     <None Remove="images\BackMenu.png" />
     <None Remove="images\DiabloIcon.jpg" />
-    <None Remove="images\DiabloLogo.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,9 +17,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="images\DiabloIcon.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="images\DiabloLogo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
