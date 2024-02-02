@@ -8,7 +8,7 @@ namespace GC1.character
 {
     class CharacterClass : BaseStats
     {
-        private string ClassName { get; set; }
+        private string ClassName { get; set; } //
         public CharacterClass(string charactername, int health, int mana, int agility, int ad, int ap, string className) : base(charactername, health, mana, agility, ad, ap)
         {
             ClassName = className;
