@@ -24,5 +24,10 @@ namespace GC1
         {
             InitializeComponent();
         }
+
+        private void exit_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }
