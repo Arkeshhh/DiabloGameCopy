@@ -9,11 +9,15 @@
 
   <ItemGroup>
     <None Remove="images\BackMenu.png" />
+    <None Remove="images\CharacterSelect.png" />
     <None Remove="images\DiabloIcon.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="images\BackMenu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\CharacterSelect.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="images\DiabloIcon.jpg">

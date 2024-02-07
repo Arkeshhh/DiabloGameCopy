@@ -29,5 +29,12 @@ namespace GC1
         {
             Application.Current.Shutdown();
         }
+
+        private void createCharacter_Button_Click(object sender, RoutedEventArgs e)
+        {
+            CharacterCreateWindow characterWindow = new CharacterCreateWindow();
+            characterWindow.Owner = this;
+            characterWindow.Show();
+        }
     }
 }

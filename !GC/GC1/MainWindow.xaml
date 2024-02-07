@@ -5,11 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GC1"
         mc:Ignorable="d"
-        Title="Diablo" Width="1360" Height="768" WindowState="Maximized" WindowStyle="None" ResizeMode="NoResize" Icon="/images/DiabloIcon.jpg">
+        Title="Diablo" Width="1360" Height="768" WindowState="Normal" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" ShowInTaskbar="True" Icon="/images/DiabloIcon.jpg">
     <Window.Background>
         <ImageBrush ImageSource="/images/BackMenu.png" Stretch="Fill"/>
     </Window.Background>
     <Grid Height="768" Width="1360">
         <Button x:Name="exit_Button" Content="Button" Height="84" Width="217" Click="exit_Button_Click" Margin="36,630,0,0" RenderTransformOrigin="0.512,0.276" VerticalAlignment="Top" HorizontalAlignment="Left" Opacity="0"/>
+        <Button x:Name="createCharacter_Button" Content="Button" Height="84" Width="217" Click="createCharacter_Button_Click" Margin="36,390,0,0" RenderTransformOrigin="0.512,0.276" VerticalAlignment="Top" HorizontalAlignment="Left" Opacity="0"/>
     </Grid>
 </Window>
