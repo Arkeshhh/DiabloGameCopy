@@ -6,10 +6,9 @@
         xmlns:local="clr-namespace:GC1"
         mc:Ignorable="d"
         Title="Diablo" Width="1360" Height="768" WindowState="Normal" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" ShowInTaskbar="False" Icon="/images/DiabloIcon.jpg">
-    <Grid>
-        <Grid.Background>
-            <ImageBrush ImageSource="/images/CharacterSelect.png"/>
-        </Grid.Background>
-
+    <Grid Background="Black">
+        <Image Margin="573,224,573,224" Source="/images/assasin.png" Stretch="Fill"/>
+        <Image Margin="882,222,264,225" Source="/images/sorcerer.png" Stretch="Fill"/>
+        <Image Margin="266,222,880,224" Source="/images/warrior.png" Stretch="Fill"/>
     </Grid>
 </Window>

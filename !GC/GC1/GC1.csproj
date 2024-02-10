@@ -8,19 +8,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\assasin.png" />
     <None Remove="images\BackMenu.png" />
-    <None Remove="images\CharacterSelect.png" />
     <None Remove="images\DiabloIcon.jpg" />
+    <None Remove="images\sorcerer.png" />
+    <None Remove="images\warrior.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="images\assasin.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="images\BackMenu.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="images\CharacterSelect.png">
+    <Resource Include="images\DiabloIcon.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="images\DiabloIcon.jpg">
+    <Resource Include="images\sorcerer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\warrior.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
