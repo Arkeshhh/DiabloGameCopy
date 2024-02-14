@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GC1"
         mc:Ignorable="d"
-        Title="Diablo" Width="1360" Height="768" WindowState="Normal" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" ShowInTaskbar="False" Icon="/images/DiabloIcon.jpg">
+        Title="Diablo" Width="1360" Height="768" WindowState="Normal" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" ShowInTaskbar="True" Icon="\images\DiaboIcon.png">
     <Grid Background="Black">
-        <Image Margin="573,224,573,224" Source="/images/assasin.png" Stretch="Fill"/>
-        <Image Margin="882,222,264,225" Source="/images/sorcerer.png" Stretch="Fill"/>
-        <Image Margin="266,222,880,224" Source="/images/warrior.png" Stretch="Fill"/>
+        <Image Margin="573,224,573,224" Source="/images/assasin.png" Stretch="Fill" MouseDown="SelectAssasin_MouseDown"/>
+        <Image Margin="882,222,264,225" Source="/images/sorcerer.png" Stretch="Fill" MouseDown="SelectSorcerer_MouseDown"/>
+        <Image x:Name="SelectWarrior" Margin="266,222,880,224" Source="/images/warrior.png" Stretch="Fill" MouseDown="SelectWarrior_MouseDown"/>
+        <Button x:Name="ReturnButton" Content="Return" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="ReturnButton_Click"/>
     </Grid>
 </Window>

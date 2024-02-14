@@ -24,9 +24,33 @@ namespace GC1
             InitializeComponent();
         }
 
-        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        virtual public void ReturnButton_Click(object sender, RoutedEventArgs e)
         {
-
+          MainWindow MainWindow = new MainWindow();
+          MainWindow.Show();
+          this.Close();
         }
+
+        private void SelectWarrior_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            CharacterStatsWindow characterStatsWindow = new CharacterStatsWindow();
+            characterStatsWindow.Show();
+            this.Close();
+        }
+
+        private void SelectAssasin_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            CharacterStatsWindow characterStatsWindow = new CharacterStatsWindow();
+            characterStatsWindow.Show();
+            this.Close();
+        }
+
+        private void SelectSorcerer_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            CharacterStatsWindow characterStatsWindow = new CharacterStatsWindow();
+            characterStatsWindow.Show();
+            this.Close();
+        }
+
     }
 }

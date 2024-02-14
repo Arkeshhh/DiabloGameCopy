@@ -10,7 +10,7 @@
   <ItemGroup>
     <None Remove="images\assasin.png" />
     <None Remove="images\BackMenu.png" />
-    <None Remove="images\DiabloIcon.jpg" />
+    <None Remove="images\DiaboIcon.png" />
     <None Remove="images\sorcerer.png" />
     <None Remove="images\warrior.png" />
   </ItemGroup>
@@ -22,7 +22,7 @@
     <Resource Include="images\BackMenu.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="images\DiabloIcon.jpg">
+    <Resource Include="images\DiaboIcon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="images\sorcerer.png">

@@ -25,16 +25,17 @@ namespace GC1
             InitializeComponent();
         }
 
-        private void exit_Button_Click(object sender, RoutedEventArgs e)
+        private void Exit_Button_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
         }
 
-        private void createCharacter_Button_Click(object sender, RoutedEventArgs e)
+        private void CreateCharacter_Button_Click(object sender, RoutedEventArgs e)
         {
-            CharacterCreateWindow characterWindow = new CharacterCreateWindow();
-            characterWindow.Owner = this;
+            CharacterCreateWindow characterWindow = new CharacterCreateWindow(); 
             characterWindow.Show();
+            this.Close();
+
         }
     }
 }
