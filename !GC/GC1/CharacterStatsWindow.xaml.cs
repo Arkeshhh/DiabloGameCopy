@@ -30,5 +30,10 @@ namespace GC1
            characterCreateWindow.Show();
            this.Close();
         }
+
+        private void SClass_Initialized(object sender, EventArgs e)
+        {
+
+        }
     }
 }

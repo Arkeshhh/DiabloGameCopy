@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -11,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace GC1
 {
@@ -19,6 +21,8 @@ namespace GC1
     /// </summary>
     public partial class CharacterCreateWindow : Window
     {
+
+        public string SelectedClass;
         public CharacterCreateWindow()
         {
             InitializeComponent();
@@ -36,6 +40,7 @@ namespace GC1
             CharacterStatsWindow characterStatsWindow = new CharacterStatsWindow();
             characterStatsWindow.Show();
             this.Close();
+            SelectedClass = "/images/warrior.png";
         }
 
         private void SelectAssasin_MouseDown(object sender, MouseButtonEventArgs e)
